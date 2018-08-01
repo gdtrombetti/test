@@ -1,0 +1,10 @@
+<?php
+include 'Controllers/ContentController.php';
+include 'Classes/Content.php';
+    $controller = new ContentController();
+    $contents = $controller->getContent();
+    foreach($contents as $content) {
+        $content = new Content($content['LOGO'], $content['TYPE']);
+        $template = 'templates/' . strtolower($content->getType()) . '.phtml';
+        include $template;
+    }

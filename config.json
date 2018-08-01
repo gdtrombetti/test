@@ -1,0 +1,12 @@
+{
+  "DB": {
+    "HOST": "127.0.0.1",
+    "PORT": "3306",
+    "NAME": "TEST_SPORTS",
+    "USER": "root",
+    "PASS": ""
+  },
+  "FN": {
+    "KEY": "dd8e54c0-0bed-4226-883d-0d9dfe345ce1"
+  }
+}

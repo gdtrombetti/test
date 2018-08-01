@@ -1,0 +1,83 @@
+.cool {
+    height: 400px;
+    overflow: scroll;
+    margin-top: 5em;
+}
+body {
+    color: #333333;
+    font-family: 'Lucida Console', Monaco, monospace;
+}
+
+ul {
+    list-style-type: none;
+}
+#loader {
+    margin: 0 auto;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid DarkBlue;
+    border-right: 16px solid LemonChiffon;
+    border-bottom: 16px solid Indigo;
+    border-left: 16px solid SlateGray;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#fortnite {
+    display: none;
+}
+
+.dark {
+    background-color: #0f0f0f;
+    color: white;
+}
+.btn.dark:hover, .btn.dark:focus, .btn.dark:active, .btn.dark.active{
+    color: white;
+}
+
+.grey {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+.success {
+    color: green;
+    display: none;
+}
+.success-delete {
+    color: green;
+    display: none;
+}
+.active-delete {
+    background-color: #5e5e5e;
+}
+
+#deleteRow {
+    display: none;
+}
+
+.margins {
+    margin-top: .5em;
+    margin-bottom: 3em;
+}
+.height {
+    height: auto;
+    width: 100%;
+    display: block;
+}
